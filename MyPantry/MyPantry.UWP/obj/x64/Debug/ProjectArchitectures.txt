@@ -1,0 +1,1 @@
+E:\project\MyPantry\MyPantry\MyPantry.UWP\MyPantry.UWP.csproj;x64

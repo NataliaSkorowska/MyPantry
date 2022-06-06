@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPantry.Views.AddProduct">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand" Padding="10">
+            <Entry Text="{Binding product.ID}" Margin="0" FontSize="1" IsVisible="false" HorizontalOptions="FillAndExpand"/>
+            <Label Text="Nazwa" Margin="2"/>
+            <Entry Text="{Binding product.Name}" Margin="2,2,2,5" HorizontalOptions="FillAndExpand"/>
+            <Label Text="Cena" Margin="2"/>
+            <Entry Text="{Binding product.Price}" Margin="2,2,2,5" 
+                   HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+            <Label Text="Opis" Margin="2"/>
+            <Entry Text="{Binding product.Description}" Margin="2,2,2,5" 
+                   HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+            <Label Text="{Binding lblInfo}" Margin="2,2,2,5"/>
+            <Grid HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Button Text="{Binding btnSaveLabel}" x:Name="btnSave" HorizontalOptions="FillAndExpand" BackgroundColor="#ff6633" TextColor="#fff" 
+                        Margin="2" Grid.Column="0" Grid.Row="0" Command="{Binding btnSaveProduct}"/>
+                <Button Text="Wyczyść" x:Name="btnClear" 
+                        HorizontalOptions="FillAndExpand" BackgroundColor="#bfbfbf" 
+                        TextColor="#fff" Margin="2" Grid.Column="1" Grid.Row="0" Command="{Binding btnClearProduct}"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
