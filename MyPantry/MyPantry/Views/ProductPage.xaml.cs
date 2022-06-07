@@ -15,6 +15,7 @@ namespace MyPantry.Views
     public partial class ProductPage : ContentPage
     {
         VMProducts vm;
+        
         public ProductPage()
         {
             InitializeComponent();
@@ -67,7 +68,7 @@ namespace MyPantry.Views
             }
             catch (Exception ex)
             {
-
+                throw new NotImplementedException();
             }
         }
     }

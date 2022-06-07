@@ -97,6 +97,7 @@ namespace MyPantry.ViewModels
             product.Name = "";
             product.Price = 0;
             product.Description = "";
+            product.SelectedDate = DateTime.MinValue;
             lblInfo = "";
             btnSaveLabel = "DODAJ";
         }

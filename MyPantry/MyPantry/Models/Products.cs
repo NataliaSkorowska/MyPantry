@@ -13,5 +13,8 @@ namespace MyPantry.Models
         public double Price { get; set; }
         public string Description { get; set; }
 
+        public DateTime SelectedDate { get; set; }
+        public DateTime ExpiryDate { get; set; }
+
     }
 }

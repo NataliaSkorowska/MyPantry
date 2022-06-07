@@ -82,8 +82,11 @@
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\bread.jpg">
       <PackagePath>Assets\bread.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\home.png">
+      <PackagePath>home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\listI.png">
+      <PackagePath>listI.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -201,6 +204,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\icon_feed.png">
       <PackagePath>icon_feed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\MyPantry.UWP.xr.xml">
       <PackagePath>MyPantry.UWP.xr.xml</PackagePath>

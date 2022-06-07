@@ -13,6 +13,7 @@ namespace MyPantry.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddProduct : ContentPage
     {
+        
         public AddProduct(Products product)
         {
             try
@@ -20,11 +21,15 @@ namespace MyPantry.Views
                 InitializeComponent();
                 VMAddProduct vm = new VMAddProduct(product);
                 this.BindingContext = vm;
+                
+
             }
             catch (Exception ex)
             {
 
             }
+
         }
+    
     }
 }
