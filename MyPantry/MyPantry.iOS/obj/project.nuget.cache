@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "y1aF97fXfUxP2n7EB9GPVMQ8t7BE+Gw1N0Z4B9hjuNK0bGBDsatmPj9d9wSEMlPwA8aHdkKtqCB1w+QP00kO6g==",
+  "dgSpecHash": "fkCdAvwrm4cfes8owYtRkW0eiDoUj9Cd28VITHqpnMG9WMQ4RkPH7YPmnEa6w5hZNM+4kEix3E8XnsdniF+I5w==",
   "success": true,
   "projectFilePath": "E:\\project\\MyPantry\\MyPantry\\MyPantry.iOS\\MyPantry.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\prism.forms\\8.1.97\\prism.forms.8.1.97.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -12,6 +14,7 @@
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

@@ -1,7 +1,6 @@
 ﻿using System;
-using System.ComponentModel;
+using System.Collections.Generic;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MyPantry.Views
 {
@@ -12,4 +11,5 @@ namespace MyPantry.Views
             InitializeComponent();
         }
     }
+
 }

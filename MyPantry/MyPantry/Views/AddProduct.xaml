@@ -17,10 +17,19 @@
                    Keyboard="Numeric"/>
             </Frame>
             <Label Text="Opis" Style="{DynamicResource LabelStyle}" />
-            <Frame  Style="{DynamicResource FrameStyle}" IsClippedToBounds="true"><Entry Text="{Binding product.Description}" Style="{DynamicResource EntryStyle}" 
+            <Frame  Style="{DynamicResource FrameStyle}" IsClippedToBounds="true">
+                <Entry Text="{Binding product.Description}" Style="{DynamicResource EntryStyle}" 
                 Keyboard="Numeric"/>
             </Frame>
-            <Label Text="{Binding lblInfo}" Margin="2,2,2,5"/>
+            <Label Text="Data zakupu" Style="{DynamicResource LabelStyle}" />
+            <DatePicker Date="{Binding product.BuyingDate}" Format="M-dd-yyyy" MinimumDate="09/06/2018"
+            MaximumDate="12/31/2030" />
+            <Label Text="Spożyć do" Style="{DynamicResource LabelStyle}" />
+            <DatePicker Date="{Binding product.ExpiryDate}" Format="M-dd-yyyy" MinimumDate="09/06/2018"
+            MaximumDate="12/31/2030"/>
+            <Label Style="{DynamicResource LabelListStyle}" Text="{Binding lblInfo}" Margin="2,2,2,5"/>
+            <Image x:Name="imgCam" Grid.Column="0" Grid.Row="1"
+                   Source="{Binding product.Image}"  />
             <Grid HorizontalOptions="FillAndExpand">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
@@ -32,6 +41,10 @@
                 <Button Text="Wyczyść" x:Name="btnClear" 
                        Style ="{DynamicResource GrayButtonStyle}" 
                        Grid.Column="1" Grid.Row="0" Command="{Binding btnClearProduct}"/>
+                <Button x:Name="btnCam" Text="Dodaj zdjęcie" Grid.Column="2" Grid.Row="0"
+                        Clicked="BtnCam_Clicked"  Style ="{DynamicResource MainButtonStyle}" />
+                <Button x:Name="pickCam" Text="Wybierz" Grid.Column="3" Grid.Row="0"
+                        Clicked="Pick_Clicked"  Style ="{DynamicResource MainButtonStyle}" />
             </Grid>
         </StackLayout>
     </ContentPage.Content>

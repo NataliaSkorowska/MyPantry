@@ -2,13 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyPantry.Views.AboutPage"
-             xmlns:vm="clr-namespace:MyPantry.ViewModels"
-             Title="{Binding Title}"
-             Background="{StaticResource Secondary}">
+             xmlns:vm="clr-namespace:MyPantry.ViewModels" x:DataType="vm:AboutViewModel"
+             Title="Strona główna"
+              >
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Accent">#96d1ff</Color>
@@ -48,5 +48,4 @@
             </StackLayout>
         </ScrollView>
     </Grid>
-
 </ContentPage>

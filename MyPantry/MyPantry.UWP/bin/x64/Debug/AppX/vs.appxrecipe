@@ -30,13 +30,21 @@
     <AppXManifest Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-07T17:36:17.549</Modified>
+      <Modified>2022-06-09T18:53:14.756</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\MyPantry.UWP.exe">
       <PackagePath>entrypoint\MyPantry.UWP.exe</PackagePath>
-      <Modified>2022-06-07T17:36:15.612</Modified>
+      <Modified>2022-06-09T18:53:12.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\prism.core\8.1.97\lib\netstandard2.0\Prism.dll">
+      <PackagePath>Prism.dll</PackagePath>
+      <Modified>2021-05-23T20:44:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\prism.forms\8.1.97\lib\netstandard2.0\Prism.Forms.dll">
+      <PackagePath>Prism.Forms.dll</PackagePath>
+      <Modified>2021-05-23T20:45:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -70,6 +78,10 @@
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T02:58:38.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\xam.plugin.media\5.0.1\lib\uap10.0.16299\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2020-04-01T18:52:02.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\xamarin.essentials\1.7.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2021-07-13T15:07:20.000</Modified>
@@ -92,7 +104,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry\bin\Debug\netstandard2.0\MyPantry.dll">
       <PackagePath>MyPantry.dll</PackagePath>
-      <Modified>2022-06-07T20:02:58.602</Modified>
+      <Modified>2022-06-09T19:42:51.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -106,9 +118,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-10-14T09:49:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\bread.jpg">
-      <PackagePath>Assets\bread.jpg</PackagePath>
-      <Modified>2022-06-06T10:46:34.518</Modified>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\banner1.png">
+      <PackagePath>Assets\banner1.png</PackagePath>
+      <Modified>2022-06-09T16:52:32.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\wood.png">
+      <PackagePath>Assets\wood.png</PackagePath>
+      <Modified>2022-06-09T16:12:26.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\home.png">
       <PackagePath>home.png</PackagePath>
@@ -265,6 +281,10 @@
       <PackagePath>icon_feed.png</PackagePath>
       <Modified>2022-06-06T08:26:48.410</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\bread.jpg">
+      <PackagePath>Assets\bread.jpg</PackagePath>
+      <Modified>2022-06-06T10:46:34.518</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-06-06T08:26:48.131</Modified>
@@ -275,11 +295,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-07T17:36:15.420</Modified>
+      <Modified>2022-06-09T18:53:12.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-07T17:36:15.421</Modified>
+      <Modified>2022-06-09T18:53:12.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -295,11 +315,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-06-07T17:36:15.931</Modified>
+      <Modified>2022-06-09T17:00:33.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Core\MyPantry.UWP.exe">
       <PackagePath>MyPantry.UWP.exe</PackagePath>
-      <Modified>2022-06-07T17:36:17.541</Modified>
+      <Modified>2022-06-09T18:53:14.744</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -12,9 +12,10 @@ namespace MyPantry.Models
         public string Name { get; set; }
         public double Price { get; set; }
         public string Description { get; set; }
-
-        public DateTime SelectedDate { get; set; }
+        public int Quantity { get; set; }
+        public DateTime BuyingDate { get; set; }
         public DateTime ExpiryDate { get; set; }
+        public string Image { get; set; }     
 
     }
 }

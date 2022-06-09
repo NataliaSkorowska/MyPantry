@@ -28,6 +28,12 @@
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\MyPantry.UWP.exe">
       <PackagePath>entrypoint\MyPantry.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\prism.core\8.1.97\lib\netstandard2.0\Prism.dll">
+      <PackagePath>Prism.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\prism.forms\8.1.97\lib\netstandard2.0\Prism.Forms.dll">
+      <PackagePath>Prism.Forms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
@@ -51,6 +57,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\xam.plugin.media\5.0.1\lib\uap10.0.16299\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\xamarin.essentials\1.7.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
@@ -79,8 +88,11 @@
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\bread.jpg">
-      <PackagePath>Assets\bread.jpg</PackagePath>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\banner1.png">
+      <PackagePath>Assets\banner1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\wood.png">
+      <PackagePath>Assets\wood.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\home.png">
       <PackagePath>home.png</PackagePath>
@@ -204,6 +216,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\icon_feed.png">
       <PackagePath>icon_feed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Assets\bread.jpg">
+      <PackagePath>Assets\bread.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

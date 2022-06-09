@@ -103,3 +103,6 @@ androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
 SQLitePCLRaw.lib.e_sqlite3.android.dll
+Plugin.Media.dll
+Plugin.Permissions.dll
+Prism.Forms.dll

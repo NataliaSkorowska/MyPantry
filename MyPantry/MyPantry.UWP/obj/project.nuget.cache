@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9IVu0JOWJrEQKMiy9QpZZ/E1yYxn17xPonyUfm8Smw34PbUiRpvmlbL2PpPDLDsXV1OjNJvtR6Gm7gEMFTFDlQ==",
+  "dgSpecHash": "/Fj8V1D93xZAIx+iFR88J/PcShTLdBCMxiM/xZHfDjB3WknNEp9CgimAmY0YIxpHqJRLew1JINsNv0Wu61lN9Q==",
   "success": true,
   "projectFilePath": "E:\\project\\MyPantry\\MyPantry\\MyPantry.UWP\\MyPantry.UWP.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\Agnieszka\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\microsoft.ui.xaml\\2.4.3\\microsoft.ui.xaml.2.4.3.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\prism.forms\\8.1.97\\prism.forms.8.1.97.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.10-rel-29722-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.8-rel-29722-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.8-rel-29722-00.nupkg.sha512",
@@ -36,6 +38,7 @@
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

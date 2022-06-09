@@ -67,3 +67,14 @@ E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\MultipleQualifiersPerDim
 E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\ProjectArchitectures.txt
 E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160715180000000.json
 E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
+E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Plugin.Media.dll
+E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Plugin.Media.pdb
+E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\Plugin.Media.pri.xml
+E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Prism.dll
+E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Prism.pdb
+E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Prism.Forms.dll
+E:\project\MyPantry\MyPantry\MyPantry.UWP\bin\x64\Debug\Prism.Forms.pdb
+E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\Prism\en\Prism.Properties.Resources.resw
+E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\Prism.Forms\en\Prism.Properties.Resources.resw
+E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\resources.en.resfiles
+E:\project\MyPantry\MyPantry\MyPantry.UWP\obj\x64\Debug\resources.en.resfiles.intermediate

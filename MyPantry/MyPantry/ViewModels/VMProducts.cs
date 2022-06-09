@@ -13,7 +13,6 @@ namespace MyPantry.ViewModels
     public class VMProducts : INotifyPropertyChanged
     {
         private ObservableCollection<Products> _lstProducts { get; set; }
-
         public ObservableCollection<Products> lstProducts
         {
             get { return _lstProducts; }
@@ -23,9 +22,7 @@ namespace MyPantry.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public Command btnAddProduct { get; set; }
-
         private string _lblInfo { get; set; }
         public string lblInfo
         {
@@ -36,13 +33,10 @@ namespace MyPantry.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public VMProducts()
         {
             lstProducts = new ObservableCollection<Products>();
-
         }
-
         public void GetProducts()
         {
             try
@@ -61,7 +55,9 @@ namespace MyPantry.ViewModels
                             ID = prod.ID,
                             Name = prod.Name,
                             Price = prod.Price,
-                            Description = prod.Description
+                            Description = prod.Description,
+                            BuyingDate = prod.BuyingDate,
+                            ExpiryDate = prod.ExpiryDate
                         });
                     }
 
@@ -70,13 +66,11 @@ namespace MyPantry.ViewModels
                 else
                     lblInfo = "Brak produktów w spiżarni - czas zrobić zakupy";
             }
-
             catch (Exception ex)
             {
                 lblInfo = ex.Message.ToString();
             }
         }
-
         public void DeleteProduct(Products product)
         {
             try
@@ -97,7 +91,6 @@ namespace MyPantry.ViewModels
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-
         private void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             if (PropertyChanged != null)

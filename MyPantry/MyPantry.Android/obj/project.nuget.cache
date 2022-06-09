@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iuxwuJ6OVqRvJfd+fWDWU6XmiFblzH3YqMDMDUqBs35so4hOwMlgHivhVTBUVSGdiQOtIBjPxGOJg6jJgKSK5w==",
+  "dgSpecHash": "EIAPEuhgteOUlrxu4xUUtlIw4Igk8MgBAhSRrQzb/1aCw7wa2k2XgMyuOnGWVa8SesV2mii+qFepzCArh8W7ZA==",
   "success": true,
   "projectFilePath": "E:\\project\\MyPantry\\MyPantry\\MyPantry.Android\\MyPantry.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\prism.forms\\8.1.97\\prism.forms.8.1.97.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -13,6 +15,7 @@
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Agnieszka\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\Agnieszka\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

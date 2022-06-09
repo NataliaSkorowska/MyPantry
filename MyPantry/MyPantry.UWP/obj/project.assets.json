@@ -230,6 +230,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -492,6 +514,18 @@
           }
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -528,6 +562,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -768,6 +804,28 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -1132,6 +1190,18 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -1168,6 +1238,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -1408,6 +1480,28 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.12": {
@@ -1773,6 +1867,18 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -1809,6 +1915,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -2049,6 +2157,28 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -2411,6 +2541,18 @@
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -2447,6 +2589,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -2687,6 +2831,28 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -3051,6 +3217,18 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -3087,6 +3265,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -3327,6 +3507,28 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -3692,6 +3894,18 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -3728,6 +3942,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -3968,6 +4184,28 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -4332,6 +4570,18 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -4368,6 +4618,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -4608,6 +4860,28 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -4973,6 +5247,18 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "compile": {
@@ -5009,6 +5295,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Prism.Forms": "8.1.97",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -5562,6 +5850,52 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Prism.Core/8.1.97": {
+      "sha512": "EP5zrvWddw3eSq25Y7hHnDYdmLZEC2Z/gMrvmHzUuLbitmA1UaS7wQUlSwNr9Km8lzJNCvytFnaGBEFukHgoHg==",
+      "type": "package",
+      "path": "prism.core/8.1.97",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net461/Prism.dll",
+        "lib/net461/Prism.pdb",
+        "lib/net461/Prism.xml",
+        "lib/net47/Prism.dll",
+        "lib/net47/Prism.pdb",
+        "lib/net47/Prism.xml",
+        "lib/net5.0/Prism.dll",
+        "lib/net5.0/Prism.pdb",
+        "lib/net5.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "prism-logo.png",
+        "prism.core.8.1.97.nupkg.sha512",
+        "prism.core.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Prism.Forms/8.1.97": {
+      "sha512": "PZ11VwcKc1XNOhIAbdZXPwiRdG1QbxS3cV0JKdKJp914+LSGog71LbHg5hMY2C8AssfCe6wjG5wOvZaBV68nvw==",
+      "type": "package",
+      "path": "prism.forms/8.1.97",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/monoandroid10.0/Prism.Forms.dll",
+        "lib/monoandroid10.0/Prism.Forms.pdb",
+        "lib/monoandroid10.0/Prism.Forms.xml",
+        "lib/netstandard2.0/Prism.Forms.dll",
+        "lib/netstandard2.0/Prism.Forms.pdb",
+        "lib/netstandard2.0/Prism.Forms.xml",
+        "prism-logo.png",
+        "prism.forms.8.1.97.nupkg.sha512",
+        "prism.forms.nuspec",
+        "readme.txt"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.12": {
@@ -9645,6 +9979,46 @@
         "win2d.uwp.nuspec"
       ]
     },
+    "Xam.Plugin.Media/5.0.1": {
+      "sha512": "UUR31EEnhDVa4IXgVfQIAL3u9v6YAyppsb5UlO9MNJ4quGGkfcWX++JexjB1nMGqvCzsjAT2t32drKDIXoW4SQ==",
+      "type": "package",
+      "path": "xam.plugin.media/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Media.dll",
+        "lib/monoandroid10.0/Plugin.Media.pdb",
+        "lib/monoandroid10.0/Plugin.Media.xml",
+        "lib/monoandroid80/Plugin.Media.dll",
+        "lib/monoandroid80/Plugin.Media.pdb",
+        "lib/monoandroid80/Plugin.Media.xml",
+        "lib/monoandroid81/Plugin.Media.dll",
+        "lib/monoandroid81/Plugin.Media.pdb",
+        "lib/monoandroid81/Plugin.Media.xml",
+        "lib/monoandroid90/Plugin.Media.dll",
+        "lib/monoandroid90/Plugin.Media.pdb",
+        "lib/monoandroid90/Plugin.Media.xml",
+        "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.pdb",
+        "lib/netstandard1.0/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.pdb",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.16299/Plugin.Media.dll",
+        "lib/uap10.0.16299/Plugin.Media.pdb",
+        "lib/uap10.0.16299/Plugin.Media.pri",
+        "lib/uap10.0.16299/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.pdb",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.5.0.1.nupkg.sha512",
+        "xam.plugin.media.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -9913,6 +10287,7 @@
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.12",
       "MyPantry >= 1.0.0",
+      "Xam.Plugin.Media >= 5.0.1",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
       "sqlite-net-pcl >= 1.8.116"
@@ -9965,6 +10340,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.12, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[5.0.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

@@ -51,7 +51,7 @@ namespace MyPantry.Views
 
             }
         }
-
+       
         private async void btnDeleteProduct_Clicked(object sender, EventArgs e)
         {
             try

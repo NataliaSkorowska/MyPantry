@@ -97,10 +97,11 @@ namespace MyPantry.ViewModels
             product.Name = "";
             product.Price = 0;
             product.Description = "";
-            product.SelectedDate = DateTime.MinValue;
+            product.Image = "";
             lblInfo = "";
             btnSaveLabel = "DODAJ";
         }
+        
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -111,5 +112,6 @@ namespace MyPantry.ViewModels
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
+     
     }
 }
