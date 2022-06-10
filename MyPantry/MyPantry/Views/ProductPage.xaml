@@ -5,8 +5,7 @@
              xmlns:model="clr-namespace:MyPantry.Models"
              xmlns:local="clr-namespace:MyPantry.ViewModels"
              Visual="Material"
-             Title="Lista produktów"
-             Background="{StaticResource Secondary}">
+             Title="Lista produktów"  BackgroundImageSource="wood.jpg">
     <ContentPage.Content>
         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
@@ -15,7 +14,7 @@
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <ListView x:Name="lstProduct" ItemsSource="{Binding lstProducts}"
-                       HasUnevenRows="True"
+                       HasUnevenRows="True"           
                       RowHeight="100" SeparatorColor="Black" SeparatorVisibility="Default"
                       Grid.Row="0" Grid.Column="0" Margin="10" ItemSelected="lstProduct_ItemSelected">
                 <ListView.ItemTemplate>
@@ -26,21 +25,18 @@
                                     <ColumnDefinition Width="8*"/>
                                     <ColumnDefinition Width="2*"/>
                                 </Grid.ColumnDefinitions>
-                                <Button BackgroundColor="#fff" TextColor="#eb3449" HorizontalOptions="Center" VerticalOptions="FillAndExpand" 
-                                        Grid.Column="1" x:Name="btnDeleteProduct" Clicked="btnDeleteProduct_Clicked" CommandParameter="{Binding ID}" Text="X" FontSize="20"/>
-                                <StackLayout HorizontalOptions="FillAndExpand" Margin="0" VerticalOptions="StartAndExpand" Grid.Column="0">
-                                    <StackLayout Margin="1" Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
-                                        <Label Text="Produkt: " Margin="1" />
-                                        <Label Text="{Binding Name}" VerticalTextAlignment="Center" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+                                <Button HorizontalOptions="Center" VerticalOptions="FillAndExpand" TextColor="{StaticResource Primary}"
+                                       BackgroundColor="Transparent" Grid.Column="1" x:Name="btnDeleteProduct" Clicked="btnDeleteProduct_Clicked" CommandParameter="{Binding ID}" Text="X" FontSize="20"/>
+                                <StackLayout Grid.Column="0" Style="{DynamicResource StackLayoutProductPageStyle}">
+                                    <StackLayout Style="{DynamicResource StackLayoutProductPageStyle2}">
+                                        <Label Text="{Binding Name}"  Style="{DynamicResource LabelListImportant}"/>
                                     </StackLayout>
-                                    <StackLayout Margin="1" Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
-                                        <Label Text="Cena: " Margin="1" />
-                                        <Label Text="{Binding Price}" VerticalTextAlignment="Center" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+                                    <StackLayout Style="{DynamicResource StackLayoutProductPageStyle2}">
+                                        <Label Text="{Binding Price}"  Style="{DynamicResource LabelBasic2}" />
                                     </StackLayout>
-                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start" Margin="1,1,1,3">
-                                        <Label Text="Opis:  " Margin="1" />
-                                        <Label Text="{Binding Description}" VerticalTextAlignment="Center" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
-                                        <Label Text="{Binding BuyingDate}"  VerticalTextAlignment="Center" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+                                    <StackLayout Style="{DynamicResource StackLayoutProductPageStyle2}" Orientation="Horizontal">
+                                        <Label Text="{Binding Description}" Style="{DynamicResource LabelBasic2}"/>
+                                        <Label Text="{Binding BuyingDate,StringFormat='{0:MM/dd/yy}'}"  Style="{DynamicResource LabelBasic2}" />
                                     </StackLayout>
                                 </StackLayout>
                             </Grid>
@@ -48,10 +44,10 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Label Text="{Binding lblInfo}"  Style="{DynamicResource LabelListStyle}" Grid.Row="1" Grid.Column="0" Margin="2"/>
+            <Label Text="{Binding lblInfo}"  Style="{DynamicResource LabelListStyle}" Grid.Row="1" Grid.Column="0"/>
             <Button x:Name="btnAddProduct" Text="Dodaj nowy produkt" 
                     Clicked="btnAddProduct_Clicked" Style="{DynamicResource MainButtonStyle}"  Grid.Row="2" Grid.Column="0" />
-        
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>

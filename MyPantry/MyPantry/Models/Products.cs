@@ -15,7 +15,8 @@ namespace MyPantry.Models
         public int Quantity { get; set; }
         public DateTime BuyingDate { get; set; }
         public DateTime ExpiryDate { get; set; }
-        public string Image { get; set; }     
+        public string Image { get; set; }
+        public byte[] Content { get; set; }
 
     }
 }

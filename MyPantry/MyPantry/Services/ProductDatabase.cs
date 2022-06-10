@@ -33,7 +33,6 @@ namespace MyPantry.Services
                 initialized = true;
             }
         }
-
         public Task<List<Products>> getProducts()
         {
             return Database.Table<Products>().ToListAsync();

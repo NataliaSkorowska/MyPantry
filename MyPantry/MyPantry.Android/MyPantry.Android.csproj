@@ -102,7 +102,8 @@
     <AndroidAsset Include="Resources\Edit.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\wood.jpg" />
+    <Content Include="Resources\drawable\wood.jpg" />
+    <Content Include="Resources\wood.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

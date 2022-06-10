@@ -8,14 +8,12 @@ using MyPantry.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-
 namespace MyPantry.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProductPage : ContentPage
     {
         VMProducts vm;
-        
         public ProductPage()
         {
             InitializeComponent();
@@ -34,7 +32,6 @@ namespace MyPantry.Views
         {
             await Navigation.PushAsync(new AddProduct(null));
         }
-
         private async void lstProduct_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             try
@@ -50,8 +47,7 @@ namespace MyPantry.Views
             {
 
             }
-        }
-       
+        }     
         private async void btnDeleteProduct_Clicked(object sender, EventArgs e)
         {
             try
@@ -64,7 +60,6 @@ namespace MyPantry.Views
                     if (result)
                         vm.DeleteProduct(product.FirstOrDefault());
                 }
-
             }
             catch (Exception ex)
             {

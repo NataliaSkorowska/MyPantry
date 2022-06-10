@@ -17,7 +17,6 @@ namespace MyPantry.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddProduct : ContentPage
     {       
-
         public AddProduct(Products product)
         {
             try
@@ -31,9 +30,6 @@ namespace MyPantry.Views
 
             }
         }
-       
-
-
         // Zdjęcie
         private async void BtnCam_Clicked(object sender, EventArgs e)
         {
@@ -49,7 +45,6 @@ namespace MyPantry.Views
                 if (photo != null)
                     imgCam.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
 
-
             }
             catch (Exception ex)
             {
@@ -62,7 +57,6 @@ namespace MyPantry.Views
             {
                 Title = "Wybierz zdjęcie"
             });
-
             if (result != null)
             {
                 var stream = await result.OpenReadAsync();

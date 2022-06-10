@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyPantry.Views.AddProduct"
-             Title="Produkt">
-    <ContentPage.Content Background="{StaticResource Secondary}">
-        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"
+             Title="Produkt" BackgroundImageSource="wood.jpg">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"                   
                      VerticalOptions="FillAndExpand" Padding="10">
-            <Entry Text="{Binding product.ID}" Margin="0" FontSize="1" IsVisible="false" HorizontalOptions="FillAndExpand"/>
+            <Entry Text="{Binding product.ID}" Style="{DynamicResource EntryStyle}" IsVisible="false"/>
                 <Label Text="Nazwa" Margin="2" Style="{DynamicResource LabelStyle}"/>
             <Frame Style="{DynamicResource FrameStyle}" IsClippedToBounds="true">
                 <Entry Text="{Binding product.Name}" Style="{DynamicResource EntryStyle}" />
@@ -22,11 +22,11 @@
                 Keyboard="Numeric"/>
             </Frame>
             <Label Text="Data zakupu" Style="{DynamicResource LabelStyle}" />
-            <DatePicker Date="{Binding product.BuyingDate}" Format="M-dd-yyyy" MinimumDate="09/06/2018"
-            MaximumDate="12/31/2030" />
+            <DatePicker Date="{Binding product.BuyingDate}" Format="M-dd-yyyy" MinimumDate="10/06/2022"
+            MaximumDate="12/31/2027" />
             <Label Text="Spożyć do" Style="{DynamicResource LabelStyle}" />
-            <DatePicker Date="{Binding product.ExpiryDate}" Format="M-dd-yyyy" MinimumDate="09/06/2018"
-            MaximumDate="12/31/2030"/>
+            <DatePicker Date="{Binding product.ExpiryDate}" Format="M-dd-yyyy" MinimumDate="10/06/2022"
+            MaximumDate="12/31/2027"/>
             <Label Style="{DynamicResource LabelListStyle}" Text="{Binding lblInfo}" Margin="2,2,2,5"/>
             <Image x:Name="imgCam" Grid.Column="0" Grid.Row="1"
                    Source="{Binding product.Image}"  />
@@ -36,15 +36,15 @@
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
                 <Button Text="{Binding btnSaveLabel}" x:Name="btnSave" Grid.Column="0" Grid.Row="0"
-                        Style ="{DynamicResource MainButtonStyle}" 
+                        Style ="{DynamicResource GrayButtonStyle}" 
                         Command="{Binding btnSaveProduct}"/>
                 <Button Text="Wyczyść" x:Name="btnClear" 
-                       Style ="{DynamicResource GrayButtonStyle}" 
+                       Style ="{DynamicResource GrayButtonStyle}"
                        Grid.Column="1" Grid.Row="0" Command="{Binding btnClearProduct}"/>
                 <Button x:Name="btnCam" Text="Dodaj zdjęcie" Grid.Column="2" Grid.Row="0"
-                        Clicked="BtnCam_Clicked"  Style ="{DynamicResource MainButtonStyle}" />
+                        Clicked="BtnCam_Clicked"  Style ="{DynamicResource GrayButtonStyle}" />
                 <Button x:Name="pickCam" Text="Wybierz" Grid.Column="3" Grid.Row="0"
-                        Clicked="Pick_Clicked"  Style ="{DynamicResource MainButtonStyle}" />
+                        Clicked="Pick_Clicked"  Style ="{DynamicResource GrayButtonStyle}" />
             </Grid>
         </StackLayout>
     </ContentPage.Content>

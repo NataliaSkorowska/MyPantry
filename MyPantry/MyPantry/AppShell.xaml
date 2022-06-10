@@ -14,15 +14,26 @@
                 <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
             <Style x:Key="MainButtonStyle" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
                 <Setter Property="FontFamily" Value="Segoe WP"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="15"/>
                 <Setter Property="CornerRadius" Value="30" />
                 <Setter Property="Margin" Value="2"/>
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#ab7752" Offset="0.2"/>
+                            <GradientStop Color="{StaticResource Primary}" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
             </Style>
             <Style x:Key="GrayButtonStyle" TargetType="Button">
+                <Setter Property="Background" Value="Transparent"/>
                 <Setter Property="FontFamily" Value="Segoe WP"/>
                 <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+                <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+                <Setter Property="BorderWidth" Value="2"/>
                 <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
                 <Setter Property="Margin" Value="2"/>
             </Style>
@@ -33,16 +44,49 @@
                 <Setter Property="HasShadow" Value="true"/>
             </Style>
             <Style x:Key="EntryStyle" TargetType="Entry">
-                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
             </Style>
             <Style x:Key="LabelListStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="{StaticResource Primary}"/>
                 <Setter Property="FontFamily" Value="Segoe WP"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Margin" Value="2"/>
+            </Style>
+            <Style x:Key="LabelListBasic" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="FontFamily" Value="Segoe WP"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="Margin" Value="1"/>
+            </Style>
+            <Style x:Key="LabelListImportant" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="FontFamily" Value="Segoe WP"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style x:Key="LabelBasic2" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="FontFamily" Value="Segoe WP"/>
+                <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="StackLayoutProductPageStyle" TargetType="Label">
+                <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+                <Setter Property="Margin" Value="0"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            </Style>
+            <Style x:Key="StackLayoutProductPageStyle2" TargetType="Label">
+                <Setter Property="VerticalOptions" Value="Start"/>
+                <Setter Property="Margin" Value="1"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
             </Style>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.BackgroundColor" Value="Transparent" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
                 <Setter Property="Shell.TitleColor" Value="White" />
                 <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
@@ -56,11 +100,9 @@
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
         </ResourceDictionary>
     </Shell.Resources>
-
     <TabBar>
         <ShellContent Title="Strona główna" Icon="home.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Lista" Icon="listI.png" Route="ProductPage" ContentTemplate="{DataTemplate local:ProductPage}" />
-        
     </TabBar>
     <TabBar>
         <ShellContent Route="ProductPage" ContentTemplate="{DataTemplate local:ProductPage}" />
