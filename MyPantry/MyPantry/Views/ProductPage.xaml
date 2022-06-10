@@ -36,7 +36,7 @@
                                     </StackLayout>
                                     <StackLayout Style="{DynamicResource StackLayoutProductPageStyle2}" Orientation="Horizontal">
                                         <Label Text="{Binding Description}" Style="{DynamicResource LabelBasic2}"/>
-                                        <Label Text="{Binding BuyingDate,StringFormat='{0:MM/dd/yy}'}"  Style="{DynamicResource LabelBasic2}" />
+                                        <Label Text="{Binding ExpiryDate,StringFormat='{0:MM/dd/yy}'}"  Style="{DynamicResource LabelBasic2}" />
                                     </StackLayout>
                                 </StackLayout>
                             </Grid>

@@ -104,7 +104,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\MyPantry\MyPantry\MyPantry\bin\Debug\netstandard2.0\MyPantry.dll">
       <PackagePath>MyPantry.dll</PackagePath>
-      <Modified>2022-06-10T12:14:23.319</Modified>
+      <Modified>2022-06-10T12:36:09.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agnieszka\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
